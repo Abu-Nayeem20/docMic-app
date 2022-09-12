@@ -1,0 +1,130 @@
+/* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* color class */
+.primary{
+    color: #2D89FF;
+}
+.secondary{
+    color: #642DFF;
+}
+.pColor{
+    color: #575757;
+}
+
+
+
+
+/* Banner CSS */
+
+.banner-section{
+    position: relative;
+    padding: 0 180px;
+}
+.banner-bg{
+    background: #90E2ED;
+    filter: blur(800px);
+    width: 100%;
+    height: 600px;
+}
+.banner-content{
+    position: absolute;
+    top: 0;
+    align-items: center;
+}
+.image-bg{
+    float: left;
+    margin-left: 80px;
+}
+.title-text{
+    text-align: left;
+}
+.title-text h2{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 72px;
+}
+.title-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.meet-btn{
+    margin-top: 34px;
+}
+.meet-btn button{
+    background-color: #2D89FF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.counter{
+    margin-top: 56px;
+    text-align: center;
+}
+.counter h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.counter p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.checkup-btn{
+    position: absolute;
+    bottom: 27%;
+    right: 29%;
+}
+.checkup-btn button{
+    background-color: #642DFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.fa-check{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 10px;
+}
+.meet-doctor{
+    position: absolute;
+    bottom: -20px;
+    right: -85px;
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+.meet-doctor p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.doctors img{
+    width: 40px;
+    height: 40px;
+}
+.doctors i{
+    margin-left: 13px;
+    background-color: #2D89FF;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px 5px;
+    border-radius: 50%;
+}

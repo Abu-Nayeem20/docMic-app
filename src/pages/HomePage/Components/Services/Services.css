@@ -1,0 +1,56 @@
+.service-section{
+    padding: 0 180px;
+}
+.service-title{
+    text-align: center;
+}
+.service-title p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #642DFF;
+}
+.service-title h4{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    color: #1E1E1E;
+}
+.service-content{
+    margin-top: 35px;
+}
+.ser-item{
+    background-color: #fff;
+    padding: 24px 12px;
+    position: relative;
+    border-radius: 5px;
+}
+.ser-item p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+}
+.ser-item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+.item-icon i{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    font-size: 22px;
+}
+.fa-calendar-plus{
+    color: #FF532D;
+}
+.fa-tooth{
+    color: #2DA7FF;
+}
+.fa-clipboard-check{
+    color:#2D42FF;
+}
+.fa-heart-pulse{
+    color: #642DFF;
+}
