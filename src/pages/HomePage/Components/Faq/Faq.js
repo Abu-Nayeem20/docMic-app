@@ -10,6 +10,7 @@ import './Faq.css';
 export default function Faq() {
   return (
     <div className='faq-section'>
+        <div className="faq-content">
         <div className="row">
           <div className="col-md-7">
           <div className='faq-text'>
@@ -17,67 +18,67 @@ export default function Faq() {
                 <h3>Get Your General Answer </h3>
                 </div>
             <div className="faq-items">
-            <div class="accordion accordion-flush" id="faqlist">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+            <div className="accordion accordion-flush" id="faqlist">
+                    <div className="accordion-item">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                             Get Your General Answer?
                             </button>
                         </h2>
-                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                            <div class="accordion-body">
+                        <div id="faq-content-1" className="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div className="accordion-body">
                                 Lorem Ipsum is simply dummy text of the printing.
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <div className="accordion-item">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                             Will I always see my own doctor?
                             </button>
                         </h2>
-                        <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                            <div class="accordion-body">
+                        <div id="faq-content-2" className="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div className="accordion-body">
                                 It is a long established fact that a reader will be distracted.
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <div className="accordion-item">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                             What is one Medical's care?
                             </button>
                         </h2>
-                        <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                            <div class="accordion-body">
+                        <div id="faq-content-3" className="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div className="accordion-body">
                                 Contrary to popular belief, Lorem Ipsum is not simply random text.
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <div className="accordion-item">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                             What is evidence based medicine?
                             </button>
                         </h2>
-                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                            <div class="accordion-body">
+                        <div id="faq-content-4" className="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div className="accordion-body">
                                 Contrary to popular belief, Lorem Ipsum is not simply random text.
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <div className="accordion-item">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                             What is an academic medical center?
                             </button>
                         </h2>
-                        <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                            <div class="accordion-body">
+                        <div id="faq-content-5" className="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div className="accordion-body">
                                 Contrary to popular belief, Lorem Ipsum is not simply random text.
                             </div>
                         </div>
@@ -95,6 +96,7 @@ export default function Faq() {
                     <img className='ellipse15Img' src={ellipse15Img} alt="PoseImg" />
                 </div>
           </div>
+        </div>
         </div>
     </div>
   )

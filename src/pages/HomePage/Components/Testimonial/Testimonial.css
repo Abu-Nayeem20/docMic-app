@@ -1,0 +1,53 @@
+.testimonial-section{
+    margin-top: 80px;
+    position: relative;
+}
+.testimonial-content{
+    position: absolute;
+    top: 0;
+    padding: 0 180px;
+}
+.testimonial-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.testimonial-text p{
+    color: #642DFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.testimonial-text h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-weight: 39px;
+    color: #1E1E1E;
+    padding: 14px 0;
+}
+.slider{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+.carousel-inner{
+    width: 60%;
+}
+.boyImg{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.ornament24{
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.ornament57{
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
