@@ -22,7 +22,7 @@ export default function Experience() {
               </div>
               <div className="col-md-5">
                 <div className='rightImg'>
-                    <img className='poseImg' src={poseImg} alt="PoseImg" />
+                    <img className='poseImgex' src={poseImg} alt="PoseImg" />
                     <img className='plastrerImg' src={PlastrerImg} alt="PoseImg" />
                     <img className='firstAidImg' src={FirstAidImg} alt="PoseImg" />
                     <img className='bloodPressureImg' src={BloodPressureImg} alt="PoseImg" />

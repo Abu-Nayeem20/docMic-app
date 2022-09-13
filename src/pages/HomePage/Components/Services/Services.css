@@ -110,3 +110,12 @@
         font-size: 22px;
     }
 }
+
+
+/* Responsive */
+
+@media (max-width: 360px) {
+    .ser-item{
+        margin-bottom: 20px;
+    }
+}

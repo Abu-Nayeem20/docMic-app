@@ -202,9 +202,10 @@ img{
         margin-left: 50px;
     }
     .checkup-btn{
-        left: 5%;
+        left: 0;
     }
     .meet-doctor{
-        right: -35px;
+        right: 40px;
+        bottom: -150px;
     }
 }
