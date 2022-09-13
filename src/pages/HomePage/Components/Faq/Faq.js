@@ -89,7 +89,7 @@ export default function Faq() {
           </div>
           <div className="col-md-5 offset-md-2">
           <div className='faq-right'>
-                    <img className='poseImg' src={pose8} alt="PoseImg" />
+                    <img className='poseImgfaq' src={pose8} alt="PoseImg" />
                     <img className='bloodPressure' src={bloodPressure} alt="PoseImg" />
                     <img className='defibrillator' src={defibrillator} alt="PoseImg" />
                     <img className='gloves' src={gloves} alt="PoseImg" />

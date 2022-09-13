@@ -2,6 +2,9 @@
     padding: 50px 180px 30px;
     background-color: #E9EEF7;
 }
+.footer-1 img{
+    width: 80px;
+}
 .footer-1 p{
     font-size: 14px;
     font-weight: 400;
@@ -46,4 +49,5 @@
     color: #1E1E1E;
     font-size: 12px;
     font-weight: 400;
+    margin-top: 20px;
 }

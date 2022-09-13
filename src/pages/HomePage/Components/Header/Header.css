@@ -2,6 +2,9 @@
     position: relative;
     padding: 0 180px;
 }
+.menu-toggle img{
+    display: none;
+}
 .consultation-btn button{
     background-color: #2D89FF;
     font-size: 16px;
@@ -33,4 +36,23 @@
 }
 .navbar-light .navbar-nav .active>.nav-link{
     color: #2D89FF;
+}
+
+
+@media (max-width: 360px) {
+    .header-content{
+        padding: 0 50px;
+    }
+    .menu-toggle{
+        margin-top: 20px;
+    }
+    .menu-toggle img{
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-right: 100px;
+    }
+    .logo{
+        display: none;
+    }
 }

@@ -14,6 +14,7 @@ const rightBg = {
   backgroundImage: `url(${bgImg})`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
 }
 
 export default function Banner() {

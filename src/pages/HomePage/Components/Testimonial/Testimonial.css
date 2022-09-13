@@ -40,17 +40,18 @@
     position: absolute;
     top: 40px;
     right: 50px;
+    width: 250px;
 }
 .ornament24{
     position: absolute;
     top: -20px;
     right: 0;
+    width: 100px;
 }
 .ornament57{
-    /* position: absolute;
-    bottom: 0;
-    left: 0; */
+    width: 100px;
 }
+
 .slideRight{
     position: absolute;
     bottom: 80px;
@@ -58,6 +59,7 @@
     background: #CCE2FF;
     padding: 10px 15px;
     border-radius: 50%;
+    width: 50px;
 }
 .slideLeft{
     position: absolute;
@@ -66,4 +68,13 @@
     background: #CCE2FF;
     padding: 10px 15px;
     border-radius: 50%;
+    width: 50px;
+}
+
+
+
+/* Responsive css */
+
+@media (max-width: 360px){
+    
 }

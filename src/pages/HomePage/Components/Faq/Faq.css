@@ -70,20 +70,30 @@
     left: 145px;
     width: 150px;
 }
+.poseImgfaq{
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    z-index: 99;
+    width: 300px;
+}
 .gloves{
     position: absolute;
     top: 200px;
     right: 180px;
+    width: 40px;
 }
 .bloodPressure{
     position: absolute;
     top: 0;
     right: 50px;
+    width: 40px;
 }
 .defibrillator{
     position: absolute;
     top: 80px;
     left: 80px;
+    width: 40px;
 }
 .get-solution{
     position: absolute;
@@ -105,4 +115,86 @@
     padding: 5px;
     border-radius: 50%;
     margin-right: 4px;
+    width: 30px;
+}
+
+
+/* Responsive  css */
+
+@media (max-width: 768px) {
+    .faq-right{
+        position: relative;
+    }
+    .faq-right .roundImg{
+        position: absolute;
+        top: 30px;
+        left: 145px;
+        width: 150px;
+    }
+    .poseImgfaq{
+        position: absolute;
+        top: 15px;
+        left: 60px;
+        z-index: 99;
+        width: 300px;
+    }
+    .gloves{
+        position: absolute;
+        top: 200px;
+        right: 180px;
+        width: 40px;
+    }
+    .bloodPressure{
+        position: absolute;
+        top: 0;
+        right: 50px;
+        width: 40px;
+    }
+    .defibrillator{
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        width: 40px;
+    }
+    .get-solution{
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        z-index: 9990;
+    }
+    .get-solution button{
+        background-color: #fff;
+        border: 0;
+        padding: 6px;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #222222;
+    }
+    .get-solution button img{
+        background-color:#FFF0CC;
+        padding: 5px;
+        border-radius: 50%;
+        margin-right: 4px;
+        width: 30px;
+    }
+    
+}
+
+/* Responsive css */
+
+@media (max-width: 360px){
+    .faq-right .roundImg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+    }
+    .poseImgfaq{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 300px;
+    }
 }

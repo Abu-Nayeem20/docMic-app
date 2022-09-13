@@ -10,7 +10,7 @@ export default function Services() {
         </div>
         <div className='service-content'>
           <div className='row'>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className='ser-item'>
               <p>Cardiology</p>
               <p>Seduahag perspiciati under omnised atused error.</p>
@@ -20,7 +20,7 @@ export default function Services() {
               </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
             <div className='ser-item'>
               <p>Monthly Check Up</p>
               <p>Seduahag perspiciati under omnised atused error.</p>
@@ -30,7 +30,7 @@ export default function Services() {
               </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
             <div className='ser-item'>
               <p>Dental Care</p>
               <p>Seduahag perspiciati under omnised atused error.</p>
@@ -40,7 +40,7 @@ export default function Services() {
               </div>
             </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
             <div className='ser-item'>
               <p>Opthalmology</p>
               <p>Seduahag perspiciati under omnised atused error.</p>

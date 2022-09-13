@@ -6,6 +6,10 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+img{
+    width: 100%;
+    height: auto;
+}
 
 /* color class */
 .primary{
@@ -85,7 +89,7 @@ body{
 .checkup-btn{
     position: absolute;
     bottom: 27%;
-    left: 10%;
+    left: 8%;
 }
 .checkup-btn button{
     background-color: #642DFF;
@@ -106,7 +110,7 @@ body{
 .meet-doctor{
     position: absolute;
     bottom: -20px;
-    right: -85px;
+    right: -50px;
     background-color: #fff;
     padding: 10px 16px;
     border-radius: 5px;
@@ -133,10 +137,74 @@ body{
     position: absolute;
     bottom: -90px;
     right: 50px;
+    width: 100px;
 }
 .leftOrnament{
     position: absolute;
     bottom: 120px;
     left: -200px;
     z-index: 999;
+    width: 100px;
+}
+
+
+
+/* Responsive css */
+
+@media(max-width: 768px) {
+    .banner-section{
+        padding: 0 50px;
+    }
+    .image-bg{
+        margin-left: 50px;
+    }
+    .title-text h2{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 72px;
+    }
+    .checkup-btn{
+        left: 5%;
+    }
+    .meet-doctor{
+        right: -145px;
+    }
+}
+
+@media(max-width: 576px) {
+    .banner-section{
+        padding: 0 50px;
+    }
+    .banner-bg{
+        height: 1000px;
+    }
+    .image-bg{
+        margin-left: 50px;
+    }
+    .checkup-btn{
+        left: 5%;
+    }
+    .meet-doctor{
+        right: -35px;
+    }
+}
+
+
+
+@media(max-width: 360px) {
+    .banner-section{
+        padding: 0 50px;
+    }
+    .banner-bg{
+        height: 1000px;
+    }
+    .image-bg{
+        margin-left: 50px;
+    }
+    .checkup-btn{
+        left: 5%;
+    }
+    .meet-doctor{
+        right: -35px;
+    }
 }
