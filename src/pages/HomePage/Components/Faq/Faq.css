@@ -85,3 +85,24 @@
     top: 80px;
     left: 80px;
 }
+.get-solution{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    z-index: 9990;
+}
+.get-solution button{
+    background-color: #fff;
+    border: 0;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #222222;
+}
+.get-solution button img{
+    background-color:#FFF0CC;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 4px;
+}

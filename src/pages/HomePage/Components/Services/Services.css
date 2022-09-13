@@ -36,6 +36,9 @@
     color: #1E1E1E;
     text-decoration: none;
 }
+.ser-item .primary{
+    color: #2D42FF;
+}
 .item-icon i{
     position: absolute;
     top: 8%;

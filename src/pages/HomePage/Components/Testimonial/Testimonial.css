@@ -51,3 +51,19 @@
     bottom: 0;
     left: 0; */
 }
+.slideRight{
+    position: absolute;
+    bottom: 80px;
+    right: -90px;
+    background: #CCE2FF;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+.slideLeft{
+    position: absolute;
+    bottom: 80px;
+    left: -90px;
+    background: #CCE2FF;
+    padding: 10px 15px;
+    border-radius: 50%;
+}

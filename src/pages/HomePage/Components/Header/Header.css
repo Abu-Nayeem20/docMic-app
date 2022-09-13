@@ -1,0 +1,36 @@
+.header-content{
+    position: relative;
+    padding: 0 180px;
+}
+.consultation-btn button{
+    background-color: #2D89FF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.menu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 70px;
+}
+.menu-bar .navbar-brand{
+    margin-right: 200px;
+}
+.menu-bar ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 8px;
+}
+ /* Bootstrap */
+.navbar-light .navbar-nav .nav-link {
+    color: #575757;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #2D89FF;
+}

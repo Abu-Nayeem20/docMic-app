@@ -3,6 +3,8 @@ import bgImg from '../../../../Images/Ellipse16.png';
 import img from '../../../../Images/Ikbal1.png';
 import Ornament24 from '../../../../Images/Ornament24.png';
 import Ornament57 from '../../../../Images/Ornament57.png';
+import VectorLeft from '../../../../Images/VectorLeft.png';
+import VectorRight from '../../../../Images/VectorRight.png';
 import './Testimonial.css';
 
 const leftBg = {
@@ -43,12 +45,10 @@ export default function Testimonial() {
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="sr-only">Previous</span>
+              <img className='slideLeft' src={VectorLeft} alt="" />
             </a>
             <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="sr-only">Next</span>
+              <img className='slideRight' src={VectorRight} alt="" />
             </a>
           </div>
           <img className='boyImg' src={img} alt="img" />

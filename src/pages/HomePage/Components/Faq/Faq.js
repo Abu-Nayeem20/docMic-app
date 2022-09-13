@@ -5,6 +5,7 @@ import defibrillator from '../../../../Images/Defibrillator.png';
 import gloves from '../../../../Images/Gloves.png';
 import pose8 from '../../../../Images/pose_8.png';
 import bloodPressure from '../../../../Images/BloodPressure.png';
+import image9 from '../../../../Images/image9.png';
 import './Faq.css';
 
 export default function Faq() {
@@ -12,7 +13,7 @@ export default function Faq() {
     <div className='faq-section'>
         <div className="faq-content">
         <div className="row">
-          <div className="col-md-7">
+          <div className="col-md-5">
           <div className='faq-text'>
                 <p>FAQ Questions</p>
                 <h3>Get Your General Answer </h3>
@@ -86,7 +87,7 @@ export default function Faq() {
                 </div>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 offset-md-2">
           <div className='faq-right'>
                     <img className='poseImg' src={pose8} alt="PoseImg" />
                     <img className='bloodPressure' src={bloodPressure} alt="PoseImg" />
@@ -94,7 +95,11 @@ export default function Faq() {
                     <img className='gloves' src={gloves} alt="PoseImg" />
                     <img className='roundImg' src={ellipse5} alt="PoseImg" />
                     <img className='ellipse15Img' src={ellipse15Img} alt="PoseImg" />
+                    <div className='get-solution'>
+                    <button><img src={image9} alt="" />Get Solutions From <br /> Our Experts</button>
                 </div>
+                </div>
+                
           </div>
         </div>
         </div>

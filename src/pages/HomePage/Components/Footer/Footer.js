@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
         </div>
         <div className="col-md-3">
-            <div className="footer-3">
+            <div className="footer-3 mt-4">
               <a href="#">Services</a>
               <a href="#">Our Doctors</a>
               <a href="#">Our Latest News</a>

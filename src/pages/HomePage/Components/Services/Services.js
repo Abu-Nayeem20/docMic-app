@@ -34,7 +34,7 @@ export default function Services() {
             <div className='ser-item'>
               <p>Dental Care</p>
               <p>Seduahag perspiciati under omnised atused error.</p>
-              <a href="#">Explore Now</a>
+              <a href="#" className='primary'>Explore Now</a>
               <div className='item-icon'>
               <i className="fa-solid fa-tooth"></i>
               </div>

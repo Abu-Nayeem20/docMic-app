@@ -8,6 +8,7 @@ import doctor3 from '../../../../Images/Ellipse8.png';
 import doctor4 from '../../../../Images/Ellipse9.png';
 import rectangle1 from '../../../../Images/Rectangle4.png';
 import rectangle2 from '../../../../Images/Rectangle5.png';
+import Ornament19 from '../../../../Images/Ornament19.png';
 
 const rightBg = {
   backgroundImage: `url(${bgImg})`,
@@ -47,6 +48,7 @@ export default function Banner() {
                       </div>
                   </div>
               </div>
+              <img className='leftOrnament' src={Ornament19} alt="Ornament" />
           </div>
           <div className='col-md-6'>
               <div className='image-bg' style={rightBg}>
@@ -64,10 +66,11 @@ export default function Banner() {
                       <img src={doctor4} alt="Doctor" />
                       <i className="fa-solid fa-plus"></i>
                   </div>
-                  <img className='border' src={rectangle1} alt="Border" />
+                  <img src={rectangle1} alt="Border" />
                   <br />
                   <img src={rectangle2} alt="Border" />
               </div>
+              <img className='rightOrnament' src={Ornament19} alt="Ornament" />
           </div>
       </div>
       </div>

@@ -85,7 +85,7 @@ body{
 .checkup-btn{
     position: absolute;
     bottom: 27%;
-    right: 29%;
+    left: 10%;
 }
 .checkup-btn button{
     background-color: #642DFF;
@@ -110,6 +110,7 @@ body{
     background-color: #fff;
     padding: 10px 16px;
     border-radius: 5px;
+    z-index: 999;
 }
 .meet-doctor p{
     font-size: 14px;
@@ -127,4 +128,15 @@ body{
     font-size: 16px;
     padding: 4px 5px;
     border-radius: 50%;
+}
+.rightOrnament{
+    position: absolute;
+    bottom: -90px;
+    right: 50px;
+}
+.leftOrnament{
+    position: absolute;
+    bottom: 120px;
+    left: -200px;
+    z-index: 999;
 }
