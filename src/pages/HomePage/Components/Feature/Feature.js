@@ -17,7 +17,7 @@ const rightBg = {
   backgroundImage: `url(${bgImg})`,
   backgroundPosition: "right",
   backgroundRepeat: "no-repeat",
-  height: "800px",
+  height: "600px",
   width: "100%",
   filter: "blur(200px)"
 }
